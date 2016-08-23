@@ -7,7 +7,7 @@ notifications:
   email: false
   webhooks:
     urls:
-      - https://staging.travis-ci.org/webhook
+      - http://requestb.in/174qgmm1
     on_success: always
     on_failure: always
     on_start: true
