@@ -1,5 +1,5 @@
 language: ruby
-script: env
+script: echo "FOOOOOOO"
 rvm:
   - 2.3.1
 notifications:
