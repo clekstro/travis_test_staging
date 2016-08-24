@@ -1,6 +1,6 @@
 language: ruby
 bundler_args: --without development
-script: "bundle exec rake spec RACK_ENV=test"
+script: env
 rvm:
   - 2.3.1
 notifications:
