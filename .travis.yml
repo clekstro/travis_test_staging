@@ -1,5 +1,5 @@
 language: ruby
-script: echo "FOO"
+script: echo "FO"
 rvm:
   - 2.3.1
 notifications:
