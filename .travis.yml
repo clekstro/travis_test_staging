@@ -5,6 +5,8 @@ sudo: false
 install: true
 
 script:
-  - if [ $TRAVIS_EVENT_TYPE == 'cron']; then bundle install fi
+  - if [ $TRAVIS_EVENT_TYPE == 'cron']; then 
+  bundle install 
+  fi
   - cat ~/build.sh
 
