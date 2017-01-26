@@ -1,10 +1,6 @@
-language: js
-
-sudo: false
-
-install: true
-
-script:
-  - if [ $TRAVIS_EVENT_TYPE == cron ]; then bundle install ; fi
-  - echo $TRAVIS_EVENT_TYPE
-  - cat ~/build.sh
+language: python
+python:
+  - "2.7.10"
+script: 
+  - echo `pip --version`
+  
